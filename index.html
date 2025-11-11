@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khám phá Cần Thơ – Premium Edition</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/ben-ninh-kieu.jpg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <!-- Thanh điều hướng -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home">Trang chủ</a></li>
+      <li><a href="#about">Giới thiệu</a></li>
+      <li><a href="#places">Điểm đến</a></li>
+      <li><a href="#food">Ẩm thực</a></li>
+      <li><a href="#map">Bản đồ</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+    <button id="mode-toggle">🌙</button>
+  </nav>
+
+  <!-- Phần mở đầu (ảnh nền mờ) -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1><span class="typing"></span></h1>
+      <p>Thành phố của gạo trắng nước trong 🌾</p>
+      <a href="#about" class="btn">Khám phá ngay</a>
+    </div>
+  </section>
+
+  <!-- Giới thiệu -->
+  <section id="about" data-aos="fade-up">
+    <h2>Giới thiệu về Cần Thơ</h2>
+    <p>
+      Cần Thơ là trung tâm kinh tế, văn hóa, du lịch của miền Tây Nam Bộ.  
+      Nơi đây mang vẻ đẹp sông nước hiền hòa, con người thân thiện và ẩm thực phong phú.
+    </p>
+    <img src="assets/img/ben-ninh-kieu.jpg" alt="Bến Ninh Kiều">
+  </section>
+
+  <!-- Điểm đến nổi bật -->
+  <section id="places" data-aos="fade-up">
+    <h2>Địa điểm nổi bật</h2>
+    <div class="carousel">
+      <div class="slide"><img src="assets/img/cho-noi.jpg" alt="Chợ nổi Cái Răng"></div>
+      <div class="slide"><img src="assets/img/cau-can-tho.jpg" alt="Cầu Cần Thơ"></div>
+      <div class="slide"><img src="assets/img/dai-hoc-can-tho.jpg" alt="Đại học Cần Thơ"></div>
+    </div>
+  </section>
+
+  <!-- Ẩm thực -->
+  <section id="food" data-aos="fade-up">
+    <h2>Ẩm thực & Văn hóa</h2>
+    <p>
+      Cần Thơ nổi tiếng với bánh xèo vàng giòn, lẩu mắm đậm đà và trái cây tươi ngon từ các miệt vườn.
+    </p>
+    <img src="assets/img/banh-xeo.jpg" alt="Bánh xèo miền Tây">
+  </section>
+
+  <!-- Bản đồ -->
+  <section id="map" data-aos="fade-up">
+    <h2>Khám phá vị trí</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.758187279511!2d105.7832482!3d10.0341851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089b67a19d9d9%3A0x9d073a3f85d24275!2zQuG6v24gTmluaCBLaeG7h3UsIELDuW4gQ8O0bmcgVGjhu6cgQ8ahbiBUaOG7pywgQ8ahbiBUaOG7pywgVmlldCBOYW0!5e0!3m2!1svi!2s!4v1699449429408"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Liên hệ</h2>
+    <p>📞 Số điện thoại: <strong>0909552009</strong></p>
+    <p>🌐 Website chính thức: <a href="https://dulichcantho.vn" target="_blank">dulichcantho.vn</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Khám phá Cần Thơ | Thiết kế bởi Thế Nguyễn</p>
+  </footer>
+
+  <!-- Nút lên đầu -->
+  <button id="backToTop">⬆</button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
